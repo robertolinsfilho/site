@@ -1,0 +1,828 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Unidentis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <!-- Favicons -->
+  <link href="assets/img/icon.ico" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizLand - v1.1.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i> <a href="mailto:contato@unidentis.com.br">contato@unidentis.com.br</a>
+        <i class="icofont-phone"></i> 83 30443000
+        <i class="icofont-ambulance"></i> <a data-toggle="modal" style="background-color:  #023bbf" class="btn"data-target="#exampleModal" >Urgência e Emergência</a>
+        <i class="icofont-certificate-alt-1"></i> <a data-toggle="modal" style="background-color:  #023bbf" class="btn" data-target="#exampleModal1" >Imposto de Renda</a>
+      </div>
+      <div class="social-links">
+        
+        <a href="https://pt-br.facebook.com/unidentisplanoodontologico" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/unidentisplanoodontologico/?hl=en" class="instagram"><i class="icofont-instagram"></i></a>
+       
+        <a href="https://www.linkedin.com/company/unidentis-assitencia-odontologica-ltda/?originalSubdomain=br" class="linkedin"><i class="icofont-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LOCALIZAÇÃO DAS CLÍNICAS </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <h4> Paraíba</h4>
+         RUA DOUTOR OSÓRIO ABATH, N° 46, TORRE, JOÃO PESSOA-PB, CEP - 58040-750.<br>
+         <h5>Contato Via WhatsApp:</h5>
+          <a href="https://api.whatsapp.com/send/?phone=5583986176071&text&app_absent=0">Clique aqui</a><br><br><br>
+         <h4>Rio Grande Do Norte </h4>
+         HOSPITAL RIO GRANDE , N° 754, TIROL, NATAL- RN, CEP - 59020-100.<BR>
+          <h5>Telefone: 84 4009-1000</h5> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Primeiro Acesso</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5> ACESSE COM O NÚMERO DO CPF DO TITULAR DO PLANO E A SENHA INICIAL 1234 </h5>
+          <br>
+          
+
+
+        </div>
+        <div class="modal-footer">
+         <a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=1"> <button type="button" class="btn btn-secondary" >Acessar</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    #blip-chat-container #blip-chat-open-iframe {background-color: red; width: 8%;max-width: 100px;max-height: 100px;}
+
+    @media screen and (max-width: 480px), screen and (max-height: 420px) {
+        #blip-chat-container #blip-chat-open-iframe {background-color: red; width: 30%;max-width: 100px;max-height: 100px;}
+    }
+
+</style>
+
+    <script src="https://unpkg.com/blip-chat-widget@1.6.*" type="text/javascript">
+    </script>
+    <script>
+        (function () {
+            window.onload = function () {
+
+                new BlipChat()
+                .withAppKey('dW5pZGVudGlzOjU1YWE1MzYzLTRjYWQtNDNiMC1iZmFhLTc4MzBkMjA4OGY4MA==')
+                .withButton({"color":"#023BBF","icon":"https://s3-sa-east-1.amazonaws.com/msging.net/iris/Media_23d982b2-566d-47b2-b21a-2d46b14ac37d"})
+                .withCustomCommonUrl('https://chat.blip.ai/')
+                .build();
+            }
+        })();
+    </script> 
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+     <a href="index.html"><img style="width: 38%; height: 25%;"src="./assets/img/LOGOUNIDENTIS222.png" /></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Início</a></li>
+          <li><a href="redecredenciada.php">Rede Credenciada</a></li>
+       
+          <li><a href="carteirinha.php">Carteira Digital</a></li>
+     
+          <li><a href="segundavia.php">Boleto</a></li>
+          <li><a href="tiss.html">Portal Tiss</a></li>
+          <li><a href="#contact">Contatos</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Bem-vindo a <span>Unidentis</span>
+      </h1>
+      <h2>Contrate seu plano odontológico sem sair de casa :</h2>
+      <div class="d-flex">
+        <a href="https://unidentis.intelite.com.br/pessoafisica" class="btn-get-started scrollto">Clique Aqui para adquirir</a>
+        
+      </div>
+      <br>
+      <div class="d-flex">
+        <a href="querosercliente.php" class="btn-get-started scrollto">Quer ser Nosso Cliente ? DEIXE SEU CONTATO</a>
+        
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-md-center">
+          <div class="col-md-2 col-md-2 d-flex align-items-stretch mb-2 mb-0 ">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="icofont-surgeon"></i></div>
+              <h4 class="title"><a href="http://corporativo.unidentis.com.br/SYS/?TipoUsuario=3">Portal do Dentista</a></h4>
+             
+            </div>
+          </div>
+          
+          <div class="col-md-2 col-md-2 d-flex align-items-stretch mb-2 mb-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="icofont-users-alt-5"></i></div>
+              <h4 class="title"><a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=1">Portal do Beneficiário</a></h4>
+             
+            </div>
+          </div>
+          <div class="col-md-2 col-md-2 d-flex align-items-stretch mb-2 mb-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="icofont-building-alt"></i></div>
+              <h4 class="title"><a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=4">Portal da Clínica</a></h4>
+             
+            </div>
+          </div>
+          <div class="col-md-2 col-md-2 d-flex align-items-stretch mb-2 mb-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="icofont-people"></i></div>
+              <h4 class="title"><a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=2">Portal Corporativo</a></h4>
+             
+            </div>
+          </div>
+
+          <div class="col-md-2 col-md-2 d-flex align-items-stretch mb-2 mb-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="icofont-user-suited"></i></i></div>
+              <h4 class="title"><a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=6">Portal do Corretor</a></h4>
+             
+            </div>
+          </div>
+
+        
+        <div class="col-md-2 col-md-2 d-flex align-items-stretch mb-2 mb-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="icofont-laptop-alt"></i></div>
+            <h4 class="title"><a href="https://unidentis.intelite.com.br/panel/dashboard">Plataforma Digital</a></h4>
+           
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Aplicativo</h2>
+          <h3>Unidentis <span>Interativo</span></h3>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/APPUNIDENTIS_GUGAPATY.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-2 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <h3>Unidentis digital para<span> você!</span>  </h3>
+            <br>
+              
+            <h3>Baixe o aplicativo Unidentis associado e encontre tudo o que você precisa.</h3>
+            <p class="font-italic">
+            </p>
+            <ul>
+              <li>
+              <a style="width: 10000%;" href="https://play.google.com/store/apps/details?id=br.com.unidentis.associado">  <img  style="width: 60%;" src="assets/img/googleplay-button.png" /></a>
+                
+              </li>
+              <li>
+                <a href="https://apps.apple.com/br/app/unidentis-associado/id1368673470"><img  style="width: 60%;" src="assets/img/appstore-button.png" /></a>
+                
+             
+            </ul>
+           
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+   
+    <!-- ======= Counts Section ======= -->
+     <!-- ======= Clients Section ======= -->
+     <section id="clients2" class="clients">
+
+      
+        <h3>NOSSOS PARCEIROS</h3>
+       <div class="container">
+        <div style="width: 100%; align-items: center; align-self: center;align-content: center" class="row">
+
+          <div class="col">
+             <a href="parceiros.html"> <img src="assets/img/DROGASIL.png"></a>
+          </div>
+          <div class="col">
+            <a href="parceiros.html"><img src="assets/img/FRANCY.png"></a>
+          </div>
+          <div class="col">
+           <a href="parceiros.html"> <img src="assets/img/med.jpeg"></a>
+          </div>
+          <div class="col">
+           <a href="parceiros.html"> <img src="assets/img/Logo%20IE.png"></a>
+          </div>
+          <div class="col">
+           <a href="parceiros.html"> <img src="assets/img/yazigi%20centrologo01.png"></a>
+          </div>
+
+
+      </div>
+       </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Clients Section ======= 
+    <section id="clients" class="clients section-bg">
+      <div class="container" data-aos="zoom-in">
+        <h3>NOSSOS PRODUTOS</h3>
+        <div class="row">
+
+          <div class="col-lg-2 d-flex align-items-center justify-content-center">
+            <img style="width: 100%;"src="assets/img/REGISTO01.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2  d-flex align-items-center justify-content-center">
+            <img src="assets/img/REGISTO02.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2  d-flex align-items-center justify-content-center">
+            <img src="assets/img/REGISTO03.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2  d-flex align-items-center justify-content-center">
+            <img src="assets/img/REGISTO04.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2  d-flex align-items-center justify-content-center">
+            <img src="assets/img/REGISTO04.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2  d-flex align-items-center justify-content-center">
+            <img src="assets/img/REGISTO04.png" class="img-fluid" alt="">
+          </div>
+          
+
+        </div>
+
+      </div>
+    </section> End Clients Section -->
+ 
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Serviços</h2>
+          <h3>Unidentis <span>Serviços</span></h3>
+
+        </div>
+<br>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="https://img.icons8.com/ultraviolet/50/000000/ambulance.png"/></i></div>
+              <h4><a href="urgenciaeemergencia.html">Urgência e Emergência</a></h4>
+              <p>Confira nossos serviços de urgência e emergência</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><img src="https://img.icons8.com/ultraviolet/50/000000/toothbrush.png"/></i></div>
+              <h4><a href="prevencao.html">Prevenção em Saúde Bucal</a></h4>
+              <p>Confira as dicas que a Unidentis tem para sua saúde bucal</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><img src="https://img.icons8.com/ultraviolet/50/000000/tooth-caries.png"/></i></div>
+              <h4><a href="dentistica.html">Dentística</a></h4>
+              <p>Conheça mais sobre o  mundo da estética e beleza física na área da dentístisca</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="https://img.icons8.com/cotton/50/000000/tooth-cleaning-kit--v2.png"/></i></div>
+              <h4><a href="periodontia.html">Periodontia</a></h4>
+              <p>Tratamentos e curas para processos inflamatórios e infecciosos da gengiva, conheça mais sobre ...</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><img src="https://img.icons8.com/ultraviolet/50/000000/dental-braces.png"/></i></div>
+              <h4><a href="endodontia.html">Endodontia</a></h4>
+              <p>Dúvidas sobre tratamento de canal e seus tipos? Clique e confira.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><img src="https://img.icons8.com/ultraviolet/50/000000/smiling-mouth.png"/></i></div>
+              <h4><a href="plano.html">Mais...</a></h4>
+              <p>Confira todas as dicas que a Unidentis preparou para você</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+   
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg2">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Advogados</h2>
+        </div>
+        <div class="section-title3">
+     
+          <h3>Convênio com a OAB</h3>
+          
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="100">
+           <img src="./assets/img/MAN1.png"/>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="section-title2">
+            <h3>ADVOGADO!
+              CONTRATE AGORA SEU PLANO ODONTOLÓGICO COM CONDIÇÕES ESPECIAIS.</h3>
+           <br>
+            </div>
+                
+                <div>
+                  
+                  <a href="https://unidentis.intelite.com.br/oab"><button style="width: 40%;" type="button" class="btn btn-get-started">Clique Aqui</button></a>
+                  
+                </div>
+             
+           
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Unidentis</h2>
+          <h3>A UNIDENTIS SEMPRE <span> PENSANDO EM VOCÊ</span></h3><br>
+          
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img  src="assets/img/1.png" class="img-fluid" alt="">
+                <div class="social">
+                 
+                 
+                 
+                </div>
+              </div>
+              <div  style="text-align: center;" class="member-info">
+                <h4><a href="fatordequalidade.html">Fator de Qualidade</a></h4>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/2.png" class="img-fluid" alt="">
+                <div class="social">
+               
+             
+                </div>
+              </div>
+              <div style="text-align: center;" class="member-info">
+                <h4><a href="http://corporativo.unidentis.com.br/SYS/Rede_Atendimento/Rede_Atendimento.aspx">Atualização de Rede Credenciada</a></h4>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/3.png" class="img-fluid" alt="">
+                <div class="social">
+                 
+            
+                </div>
+              </div>
+              <div style="text-align: center;"class="member-info">
+                <h4><a href="noticias.html">Atenção à saúde</a></h4>
+            
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/4.png" class="img-fluid" alt="">
+                
+              </div>
+              <div style="text-align: center;" class="member-info">
+                <h4><a href="ans.html">IDSS 2019 - ÍNDICE DE DESEMPENHO DA SAÚDE SUPLEMENTAR</a></h4>
+                <h4><a href="http://www.ans.gov.br/planos-de-saude-e-operadoras/informacoes-e-avaliacoes-de-operadoras/qualificacao-ans" target="_blank">PROGRAMA DE QUALIFICAÇÃO DE OPERADORAS ANS</a></h4>
+                <h4><a href="/pdf/IDSS%202018%20(ANO%20BASE%202017).pdf" target="_blank">CLIQUE AQUI PARA DOWNLOAD DO IDSS 2018 EM PDF</a></h4>
+
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Tabela</h2>
+          <h3>Consulte Nossos <span>Planos</span></h3><br><br>
+         
+        </div>
+
+        <div class="row">
+
+          <div style="margin-left: 10%;"class="col-lg-5 col-md-2 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>UNIDENTIS VIP PARAÍBA</h3>
+              
+              <ul>
+                <img style="width: 50%; "src="assets/img/TAGPBAZUL02.png">
+                <li><h5>GR. MUNICÍPIOS PB </h5></li>
+               
+               
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://unidentis.intelite.com.br/pessoafisica" class="btn-buy">Adquirir Agora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-2 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box ">
+              <h3> UNIDENTIS VIP RIO GRANDE DO NORTE</h3>
+            
+              <ul>
+                <img style="width: 50%;"src="assets/img/TAGRNAZUL02.png">
+                <li><h5>GR. MUNICÍPIOS RN </h5></li>
+              
+               
+                
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://unidentis.intelite.com.br/pessoafisica" class="btn-buy">Adquirir Agora</a>
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+
+        </div> 
+        <br><br>
+        
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>F.A.Q</h2>
+          <h3>Perguntas <span>Frequentes</span></h3>
+          
+        </div>
+
+        <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+         
+
+          <li>
+            <a data-toggle="collapse" href="#faq1" class="collapsed">Como faço para obter a segunda via da minha carteira? <i class="icofont-simple-up"></i></a>
+            <div id="faq1" class="collapse" data-parent=".faq-list"><br>
+              <p>
+                 <a href="carteirinha.php">Clique Aqui</a>
+               
+                
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">	Como faço para obter a segunda via do boleto? <i class="icofont-simple-up"></i></a>
+            <div id="faq3" class="collapse" data-parent=".faq-list">
+              <p>
+                <a href="segundavia.php">Clique Aqui</a>
+
+
+              </p>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" class="" href="#faq2" >Como faço para agendar consulta?<i class="icofont-simple-up"></i></a>
+            <div id="faq2" class="collapse" data-parent=".faq-list">
+              <p>
+                Você pode entrar em contato com uma de nossas clínicas exclusivas através dos seguintes contatos:</p>
+               <p> UNIDENTAL : (83)3214-3000 / (83)3214-3002</p>
+                <p>TAMBIÁ : (83)3214-4042 / (83)3214-4043</p>
+               <p> ROYAL : (83)4009-4742 / (83)4009-4743</p>
+                <p>CABEDELO : (83)98777-2556</p>
+                <p>ALHANDRA : (83)3256-2233</p>
+                <p>SAPÉ : (83)99412-6280</p>
+                <p>DUAMED POLICLÍNICA : (83)991390802</p>
+                
+              </p>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">Como faço para incluir um dependente em meu plano?  <i class="icofont-simple-up"></i></a>
+            <div id="faq4" class="collapse" data-parent=".faq-list">
+              <p>
+                 <a href="https://unidentis.intelite.com.br/inclusao">Clique Aqui</a>
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">Onde posso consultar a rede credenciada?<i class="icofont-simple-up"></i></a>
+            <div id="faq5" class="collapse" data-parent=".faq-list">
+              <p>
+               <a href="redecredenciada.php">Clique Aqui</a>
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">	Qual a cobertura do meu plano?  <i class="icofont-simple-up"></i></a>
+            <div id="faq6" class="collapse" data-parent=".faq-list">
+              <p>
+                Nosso serviço de atendimento ao cliente está sempre pronto para esclarecer suas dúvidas, entre em contato através do fone e WhatssApp: 3044-3000
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          
+          <h3><span>Contatos</span></h3><br>
+          
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Nosso Endereço</h3>
+              <p>Av. Maximiano Figueiredo, 94 - Centro, João Pessoa - PB</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>SAC</h3>
+              <p>sac@unidentis.com.br</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Ouvidoria</h3>
+              <p>ouvidoria@unidentis.com.br</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Telefone</h3>
+              <p>83 3044 3000</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-7 ">
+            <iframe class="mb-4 " src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d15836.303082964383!2d-34.875602!3d-7.117218000000001!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x7ace7fd2ee8d0f5%3A0xe4bc6d9d8d24622b!2sUnidentis%20-%20Plano%20Odontologico%2C%20Av.%20Maximiano%20Figueiredo%2C%2094%20-%20Centro%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058013-470!3m2!1d-7.121141499999999!2d-34.871378799999995!5e0!3m2!1spt-BR!2sbr!4v1601493030686!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+          <div class="col-lg-5">
+            <form action="processa2.php" method="post"  >
+              <div class="form-row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+                  
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Please enter a valid email" required>
+                  
+                </div>
+              </div>
+              <div class="form-row">
+              <div class="col form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required>
+                
+              </div>
+              <div class="col form-group">
+                <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Telefone" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required>
+                
+              </div>
+            </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Messagem" required></textarea>
+                
+              </div>
+            
+              <div class="text-center"><button class="btn btn-primary" ctype="submit">Enviar Mensagem</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+   
+
+    <div class="container py-4">
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <footer id="footer">
+
+    
+
+    <div class="footer-top" >
+      <div class="container">
+        <div class="row">
+
+         
+
+          <div class="col-lg-4 col-md-5 footer-links">
+            <h4>Relacionamento</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="querosercliente.php">Quero Ser Cliente</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="segundavia.php">Segunda Via de Boleto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="http://corporativo.unidentis.com.br/SYS/?TipoUsuario=3">Portal do Dentista</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=1">Portal do Beneficiário</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://unidentis.s4e.com.br/SYS/?TipoUsuario=2">Portal Corporativo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://unidentis.intelite.com.br/panel/dashboard">Portal do Corretor</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="d.pdf">Demonstrações Econômico Financeiras 2019</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-5 footer-links">
+            <h4>SAC Unidentis</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i>Telefone: (83) 3044-3000</li>
+              <li><i class="bx bx-chevron-right"></i> Email: contato@unidentis.com.br</li>
+            
+              <li><i class="bx bx-chevron-right"></i> Endereço: Av. Maximiano Figueiredo, 94 - Centro, João Pessoa - PB</li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-5 footer-links">
+          <img src="imagens/logo.PNG" /><br>
+            <h2 style="text-align: center;">Baixe já!</h2>
+            <a href="https://apps.apple.com/br/app/unidentis-associado/id1368673470"> <img style="width: 48%;"src="assets/img/appstore-button.png"/></a>
+           <a  href="https://play.google.com/store/apps/details?id=br.com.unidentis.associado"> <img  style="width: 48%;" src="assets/img/googleplay-button.png"/></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<div class="container ">
+  <img  style=" align-items: center; background:white; text-align: center; margin-left: 42%; width: 15%; height:50%; "src="assets/img/ans.png"/>
+</footer>
+
+
+
+
+</body>
+<div id="preloader"></div>
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="https://code.iconify.design/2/2.0.0-rc.5/iconify.min.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+</html>
